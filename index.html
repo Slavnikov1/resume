@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, course, css, tags">
+    <meta name="description" content="Это базовый курс по html">
+    <title>QQ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+
+
+    <div class="info">
+        <img src="img/1.jpg" alt="" class="avatar">
+  
+        <div class="info-text">
+          <h1>Славников Богдан</h1>
+  
+          <p>Занимаюсь веб разработкой. Изучаю <strong> HTML, CSS, JS</strong></p>
+  
+          <p>Учусь на третьем курсе в университете на направлении <em> "Прикладная информатика"</em> </p>
+  
+          <h4>Мои социальные сети:</h4>
+  
+          <a href="https://vk.com/idslavnikovbogdan" target="_blank">Вконтакте</a>
+          |
+          <a href="https://en.wikipedia.org/wiki/Instagram" target="_blank">Insta</a>
+
+        </div>
+      </div>
+
+
+  <!--  <div class="info">
+
+    <img src="img/1.jpg" alt="" class="avatar">
+    <h1>Славников Богдан</h1>
+
+   <div class=" info-text">
+    <h2>О себе</h2>
+    <p class="info-text">Занимаюсь веб разработкой. Изучаю <strong> HTML, CSS, JS</strong> </p>
+    <p class="info-text">Учусь на третьем курсе в университете на направлении <em> "Прикладная информатика"</em> </p>
+    <p class="text">Мои социальные сети:</p>
+    <p class="text">|   <a href="https://vk.com/idslavnikovbogdan" target="_blank">Вконтакте</a>      |       <a href="https://en.wikipedia.org/wiki/Instagram" target="_blank">Insta</a>   |</p>
+   </div>
+</div> -->
+    <br>
+   <div class="card bg-red">
+    <h2>Мои увлечения</h2>
+    <ul type="disc" class="text list">
+        <li>Саморазвитие</li>
+        <li>Веб разработка</li>
+        <li>Спорт</li>
+        <li>Путешествия</li>
+    </ul>
+   </div>
+   <br>
+<div class="card bg-yellow ">
+    <h2 style="margin-bottom: 30px;  padding-left: 180px;">Опыт работы</h2>
+    <table style="margin-bottom: 30px; " border="1" width= "500" height="200" bgcolor="#eee" BORDERCOLOR="#696969" style="position:relative; top:100; left:30;">
+        <thead >
+            <tr>
+                <td>Название</td>
+                <td>Должность</td>
+                <td>Год</td>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td>Веб разработка</td>
+            <td>веб дизайнер</td>
+            <td>2019-2023</td>
+        </tr>
+        <tr>
+            <td>Университет</td>
+            <td>Студент</td>
+            <td>2019-2023</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+
+<!--<div class="forma">
+<form class="text1 forma">
+    <h2>Связаться со мной</h2>
+    
+    <div class="forma-row">
+
+    
+    <div class="forma-group">
+        <label for="text1">Ваше имя</label>
+        <input type="text" id="text1" placeholder="Введите имя">
+    </div>
+    <div class="forma-group">
+        <label for="email1">Ваш email</label>
+        <input type="email" id="email1" placeholder="Введите email">
+    </div>
+</div>
+    <div class="forma-group">
+        <label for="message1">Ваше сообщение:</label>
+        
+        <textarea  id="message1" cols="15" rows="10" placeholder="Введите сообщение..."></textarea>
+    </div>
+    <button type="submit" class="text1 btn">Отправить</button>
+
+</form>
+</div>-->
+
+<form action="/" class="form">
+    <h2>Связаться со мной</h2>
+
+    <div class="form-row">
+
+      <div class="form-group">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Введите имя">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" placeholder="Введите email">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Ваше сообщение:</label>
+      <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+    </div>
+
+    <input class="btn" type="submit" value="Отправить!">
+  </form>
+</div>
+</body>
+</html>
